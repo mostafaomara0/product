@@ -1,0 +1,217 @@
+body{
+    font-family: 'Lobster', cursive;
+      font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+
+      background:-webkit-linear-gradient(70deg,rgb(161, 171, 157), rgb(180, 184, 178),rgb(243, 232, 223));
+      padding: 20px;
+      height: 3000px;
+}
+.containerr{
+    background:-webkit-linear-gradient(70deg,rgb(48, 40, 48), rgb(133, 119, 83),rgb(201, 239, 199));
+    
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content .brand {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: aliceblue;
+    font-size: 30px;
+}
+nav ul {
+    display: flex;
+    padding-right: 20px;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    min-width: 88px;
+    display: block;
+    margin: 0px 5px;
+}
+.section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+    text-align: center;
+    background:-webkit-linear-gradient(70deg,rgb(48, 40, 48), rgb(133, 119, 83),rgb(201, 239, 199));
+    
+}
+.section-form h2 {
+    font-size: 50px;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.section-form form input{
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+    height: 30px;
+    border: 2px solid rgb(14, 12, 13)  ;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    outline: none;
+}
+.section-form form input[type="submit"]:hover{
+    opacity: 0.5;
+
+}
+.user-info{
+   padding-top: 20px;
+   display: none;
+}
+
+#links{
+    padding: 20px;
+}
+h6{
+    color: aliceblue;
+}
+h6 a{
+    text-decoration: none;
+    color: rgb(140, 239, 104);
+}
+
+/* ************************************************* */
+
+.product{
+  
+    width: 80%;
+    height: 30%;
+   
+    border-radius: 5px;
+    position: relative;
+    color: blac;
+}
+.product-item{
+    display: flex;
+    margin-right: 15px;
+    margin: 20px 0px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+.product-item img{
+    height: 270px;
+    width: 30%;
+    
+   
+    border-radius: 5px; 
+    
+}
+.product-item-des{
+    padding-left: 26px;
+    color: aliceblue;
+   
+}
+.product-item-des span{
+    background-color: aliceblue;
+    color: rgb(20, 220, 67);
+   padding: 2px 7px;
+   display: none;
+   position: absolute;
+   top: 0;
+}
+
+.check{
+    background-color: rgb(220, 20, 100);
+    color: aliceblue;
+    border-radius: 7px;
+    padding: 2px 5px;
+    width: 150px;
+    height:40px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.icon1{
+    display: block;
+    position: absolute;
+    color: crimson;
+    font-size: 30px;
+   margin-left: 300px;
+    cursor: pointer;
+    
+    bottom:10px;
+    right: 70px;
+
+}
+.log-out{
+    color: rgb(248, 222, 224);
+}
+/* *************************** */
+nav .user-info li i{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    cursor: pointer;
+    
+   
+     
+}
+nav .user-info li{
+    margin: 0px 10px;
+}
+nav .user-info li span{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color: aliceblue;
+    position: absolute;
+    right: 160px;
+    top:35px;
+    display: none;
+
+}
+
+.carts-products{
+    position: absolute;
+    width: 300px;
+   
+    border: 2px solid rgb(0, 0, 0) ;
+    transform: translate(-40%,0);
+    background-color: rgb(254, 252, 252);
+    top:110px;
+    display: none;
+}
+.carts-products a{
+    margin: 12px auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding:2px 0px;
+    background-color: rgb(78, 186, 116);
+    top:30px;
+   
+    text-align: center;
+     
+}
+.carts-products div {
+    text-align: center;
+    color: brown;
+}
+
+.productitem{
+    width: 80%;
+}
+#product-log{
+width: 150px;
+background-color: rgb(43, 226, 89);
+display: block;
+color: red;
+margin-top: 28px;
+font-size: 25px;
+}
+.li-prod{
+    list-style: none;
+}
